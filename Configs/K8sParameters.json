@@ -1,0 +1,14 @@
+{
+   "K8sParameters": {
+      "prefix_yaml_file":"MicroServiceDeployment",
+      "namespace": "default",
+      "image": "msvcbench/microservice_v4-screen:latest",
+      "cluster_domain": "cluster",
+      "path": "/api/v1",
+      "sleep": 1,
+      "dns-resolver":"kube-dns.kube-system.svc.cluster.local"
+   },
+   "InternalServiceFilePath": "CustomFunctions",
+   "OutputPath": "SimulationWorkspace",
+   "WorkModelPath": "examples/deathstarbench/workmodel-deathstarbench-emulation.json"
+}
